@@ -3,11 +3,4 @@ This program gets a twitter id and displays twitter's tweet or it saves the twee
 It parses through twitter's HTML code using the Html-request library.
 It saves the twitters id, date, and content of the tweet and the date which file created/updated.
 It will overwrite the previous file if a file with the twitters id already exists and updates the date on top of the file.
-
-libraries used in the code are:
-  import requests
-  from requests_html import HTML, HTMLSession
-  import json
-  import datetime
-  from pprint import pprint
-necessary libraries should be installed to run to code.
+necessary libraries should be installed to run to code including  requests/ requests_html / datetime / pprint
